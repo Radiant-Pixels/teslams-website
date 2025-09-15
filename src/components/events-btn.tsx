@@ -1,5 +1,4 @@
 import { ArrowRight, CalendarCheck2 } from "lucide-react";
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import styled from "styled-components";

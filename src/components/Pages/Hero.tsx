@@ -26,7 +26,7 @@ const Hero = () => {
 
         {/* Big Heading */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight text-gray-900 z-10">
-          TESLAMS <span className="text-indigo-600">'25</span>
+          TESLAMS <span className="text-indigo-600">&#39;25</span>
         </h1>
 
         {/* Subtext */}
@@ -39,10 +39,10 @@ const Hero = () => {
           <RegisterButton />
           <EventsButton />
         </div>
-        <div className="mt-6 z-10">
+        <div className="mt-6 z-10 flex">
           <FlipClockCountdown
             to={new Date("2025-09-27T00:00:00Z")}
-            className="max-w-xs"
+            className="w-full max-w-xs sm:max-w-sm md:max-w-md"
           />
         </div>
       </div>
