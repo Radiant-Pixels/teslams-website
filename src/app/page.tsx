@@ -1,6 +1,9 @@
 "use client";
 
+import Events from "@/components/Pages/Events";
 import Hero from "@/components/Pages/Hero";
+import DiagonalMarquee from "@/components/ui/diagonal-marquee";
+import SingleMarquee from "@/components/ui/diagonal-marquee";
 import {
   MobileNav,
   MobileNavHeader,
@@ -82,12 +85,8 @@ export default function Home() {
       </Navbar>
       <main className="smooth-scroll">
         <Hero />
-        <section
-          id="events"
-          className="relative min-h-screen flex items-center justify-center px-4 sm:px-6"
-        >
-          Events
-        </section>
+        <DiagonalMarquee />
+        <Events />
         <section
           id="committee"
           className="relative min-h-screen flex items-center justify-center px-4 sm:px-6"
