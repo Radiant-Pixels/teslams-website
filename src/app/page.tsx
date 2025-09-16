@@ -1,10 +1,11 @@
 "use client";
 
-import Contact from "@/components/Pages/Contact";
-import Events from "@/components/Pages/Events";
-import Hero from "@/components/Pages/Hero";
-import { Map } from "@/components/Pages/Map";
-import Team from "@/components/Pages/Team";
+import Contact from "@/components/Sections/Contact";
+import Events from "@/components/Sections/Events";
+import Footer from "@/components/Sections/Footer";
+import Hero from "@/components/Sections/Hero";
+import { Map } from "@/components/Sections/Map";
+import Team from "@/components/Sections/Team";
 import DiagonalMarquee from "@/components/ui/diagonal-marquee";
 import SingleMarquee from "@/components/ui/diagonal-marquee";
 import {
@@ -97,8 +98,9 @@ export default function Home() {
         <br />
         <br />
         <Team />
+        <Map />
         <Contact />
-        {/* <Map /> */}
+        <Footer />
       </main>
     </>
   );

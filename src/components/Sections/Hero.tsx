@@ -66,6 +66,27 @@ const Hero = () => {
             height={150}
             className="absolute bottom-115 right-24 invert z-0"
           />
+
+          <div className="absolute bottom-4 right-4 text-white text-sm z-10">
+            <p>Made with <span className="text-red-500">❤️</span> by{" "}
+              <a
+                href="https://www.radiantpixels.com"
+                target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:underline"
+            >
+              Radiant Pixels
+            </a>
+          </p>
+
+          <Image
+            src={"/images/radiantpixels.png"}
+            alt="Radiant Pixels"
+            width={200}
+            height={200}
+            className="absolute bottom-0 right-0 scale-75 z-0 invert"
+          />
+          </div>
         </div>
       </section>
     </>

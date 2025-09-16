@@ -212,17 +212,8 @@ export default function CardFlip({
             </div>
 
             <div className="flex flex-col mt-auto border-t border-slate-200 pt-4 space-y-2 dark:border-zinc-800 relative z-10">
-              {!registrationClosed && title === "Esp Explore" ? (
-                <Link href="https://rzp.io/rzp/tmZDf1i/" passHref>
-                  <div className="group/start relative flex items-center justify-between rounded-lg p-2.5 bg-gradient-to-r from-slate-100 via-slate-100 to-slate-100 dark:from-zinc-800 dark:via-zinc-800 dark:to-zinc-800 hover:from-primary/10 hover:via-primary/5 hover:to-transparent dark:hover:from-primary/20 dark:hover:via-primary/10 dark:hover:to-transparent hover:scale-[1.02] hover:border-primary/20 border border-transparent transition-all duration-300">
-                    <span className="text-sm font-semibold text-zinc-900 dark:text-white group-hover/start:text-primary">
-                      Register Now!
-                    </span>
-                    <ArrowRight className="text-primary h-4 w-4 transition-all duration-300 group-hover/start:translate-x-1 group-hover/start:scale-110" />
-                  </div>
-                </Link>
-              ) : !registrationClosed ? (
-                <Link href="https://registrations.isdlabsrm.in/" passHref>
+              {!registrationClosed ? (
+                <Link href="https://forms.gle/yYipx4suUdcMiMjU6" passHref>
                   <div className="group/start relative flex items-center justify-between rounded-lg p-2.5 bg-gradient-to-r from-slate-100 via-slate-100 to-slate-100 dark:from-zinc-800 dark:via-zinc-800 dark:to-zinc-800 hover:from-primary/10 hover:via-primary/5 hover:to-transparent dark:hover:from-primary/20 dark:hover:via-primary/10 dark:hover:to-transparent hover:scale-[1.02] hover:border-primary/20 border border-transparent transition-all duration-300">
                     <span className="text-sm font-semibold text-zinc-900 dark:text-white group-hover/start:text-primary">
                       Register Now!
@@ -243,14 +234,6 @@ export default function CardFlip({
                   <ArrowRight className="text-primary h-4 w-4 transition-all duration-300 group-hover/info:translate-x-1 group-hover/info:scale-110" />
                 </button>
               )} */}
-              <Link href="/rules" passHref>
-                <div className="group/start relative flex items-center justify-between rounded-lg p-2.5 bg-gradient-to-r from-slate-100 via-slate-100 to-slate-100 dark:from-zinc-800 dark:via-zinc-800 dark:to-zinc-800 hover:from-primary/10 hover:via-primary/5 hover:to-transparent dark:hover:from-primary/20 dark:hover:via-primary/10 dark:hover:to-transparent hover:scale-[1.02] hover:border-primary/20 border border-transparent transition-all duration-300">
-                  <span className="text-sm font-semibold text-zinc-900 dark:text-white group-hover/start:text-primary">
-                    Rules
-                  </span>
-                  <ArrowRight className="text-primary h-4 w-4 transition-all duration-300 group-hover/start:translate-x-1 group-hover/start:scale-110" />
-                </div>
-              </Link>
             </div>
           </div>
         </div>
