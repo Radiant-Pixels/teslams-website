@@ -1,7 +1,10 @@
 "use client";
 
+import Contact from "@/components/Pages/Contact";
 import Events from "@/components/Pages/Events";
 import Hero from "@/components/Pages/Hero";
+import { Map } from "@/components/Pages/Map";
+import Team from "@/components/Pages/Team";
 import DiagonalMarquee from "@/components/ui/diagonal-marquee";
 import SingleMarquee from "@/components/ui/diagonal-marquee";
 import {
@@ -45,7 +48,7 @@ export default function Home() {
           <NavbarLogo />
           <NavItems items={navItems} />
           <div className="flex items-center gap-4">
-            <NavbarButton variant="primary">Register Now!</NavbarButton>
+            <NavbarButton variant="primary" href="https://forms.gle/yYipx4suUdcMiMjU6">Register Now!</NavbarButton>
           </div>
         </NavBody>
 
@@ -85,20 +88,17 @@ export default function Home() {
       </Navbar>
       <main className="smooth-scroll">
         <Hero />
-        <DiagonalMarquee />
+        <br />
+        <br />
+        <br />
+        {/* <DiagonalMarquee /> */}
         <Events />
-        <section
-          id="committee"
-          className="relative min-h-screen flex items-center justify-center px-4 sm:px-6"
-        >
-          Committee
-        </section>
-        <section
-          id="contact"
-          className="relative min-h-screen flex items-center justify-center px-4 sm:px-6"
-        >
-          Contact
-        </section>
+        <br />
+        <br />
+        <br />
+        <Team />
+        <Contact />
+        {/* <Map /> */}
       </main>
     </>
   );

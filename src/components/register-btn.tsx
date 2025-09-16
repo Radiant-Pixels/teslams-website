@@ -6,7 +6,7 @@ import styled from "styled-components";
 const RegisterButton = () => {
   return (
     <StyledWrapper>
-      <Link href={""}>
+      <Link href={"https://forms.gle/yYipx4suUdcMiMjU6"}>
         <div className="group">
           <button className="brutalist-button">
             <CalendarCheck2 className="mr-4" />

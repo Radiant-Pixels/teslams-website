@@ -1,5 +1,6 @@
 import React from "react";
 import CardFlip from "../ui/flip-card";
+import Image from "next/image";
 
 const Events = () => {
   return (
@@ -22,7 +23,15 @@ const Events = () => {
             comingSoon={false}
             date="27 September, 2025"
             registrationClosed={false}
-          ></CardFlip>
+          >
+                <Image
+                  src="/images/events/bitbattle.jpg"
+                  alt="Robo Wars"
+                  width={160}
+                  height={160}
+                  className="rounded-xl w-full h-auto object-contain"
+                />
+          </CardFlip>
           <CardFlip
             title="Robo Soccer"
             description=""
@@ -33,7 +42,15 @@ const Events = () => {
             comingSoon={false}
             date="27 September, 2025"
             registrationClosed={false}
-          ></CardFlip>
+          >
+            <Image
+                  src="/images/events/bitbattle.jpg"
+                  alt="Robo Wars"
+                  width={160}
+                  height={160}
+                  className="rounded-xl w-full h-auto object-contain"
+                />
+          </CardFlip>
           <CardFlip
             title="Ampere Arena"
             description=""
@@ -42,9 +59,17 @@ const Events = () => {
             venue="Power Electronics Lab, EEE Department"
             team_size="4"
             comingSoon={false}
-            date="10 & 11 September, 2025"
+            date="27 September, 2025"
             registrationClosed={false}
-          ></CardFlip>
+          >
+            <Image
+                  src="/images/events/amperearena.jpg"
+                  alt="Robo Wars"
+                  width={160}
+                  height={160}
+                  className="rounded-xl h-[800px] object-fill"
+                />
+          </CardFlip>
           <CardFlip
             title="Paper Presentation"
             description=""
@@ -55,7 +80,15 @@ const Events = () => {
             comingSoon={false}
             date="27 September, 2025"
             registrationClosed={false}
-          ></CardFlip>
+          >
+            <Image
+                  src="/images/events/bitbattle.jpg"
+                  alt="Robo Wars"
+                  width={160}
+                  height={160}
+                  className="rounded-xl w-full h-auto object-contain"
+                />
+          </CardFlip>
           <CardFlip
             title="Brain Blast"
             description=""
@@ -66,7 +99,15 @@ const Events = () => {
             comingSoon={false}
             date="27 September, 2025"
             registrationClosed={false}
-          ></CardFlip>
+          >
+            <Image
+                  src="/images/events/brainblast.jpg"
+                  alt="Robo Wars"
+                  width={160}
+                  height={160}
+                  className="rounded-xl w-full h-auto object-contain"
+                />
+          </CardFlip>
           <CardFlip
             title="Cinema-X"
             description=""
@@ -77,7 +118,15 @@ const Events = () => {
             comingSoon={false}
             date="27 September, 2025"
             registrationClosed={false}
-          ></CardFlip>
+          >
+            <Image
+                  src="/images/events/cinemax.jpg"
+                  alt="Robo Wars"
+                  width={160}
+                  height={160}
+                  className="rounded-xl w-full h-auto object-contain"
+                />
+          </CardFlip>
           <CardFlip
             title="Gesture Quest"
             description=""
@@ -88,7 +137,15 @@ const Events = () => {
             comingSoon={false}
             date="27 September, 2025"
             registrationClosed={false}
-          ></CardFlip>
+          >
+            <Image
+                  src="/images/events/bitbattle.jpg"
+                  alt="Robo Wars"
+                  width={160}
+                  height={160}
+                  className="rounded-xl w-full h-auto object-contain"
+                />
+          </CardFlip>
           <CardFlip
             title="BitBattle"
             description=""
@@ -99,7 +156,14 @@ const Events = () => {
             comingSoon={false}
             date="10 & 11 September, 2025"
             registrationClosed={false}
-          ></CardFlip>
+          >
+              <Image
+                src="/images/events/bitbattle.jpg"
+                alt="BitBattle Event"
+                fill
+                className="rounded-xl object-contain"
+              />
+          </CardFlip>
         </div>
       </div>
     </section>
