@@ -24,13 +24,13 @@ const Events = () => {
             date="27 September, 2025"
             registrationClosed={false}
           >
-                <Image
+                {/* <Image
                   src="/images/events/bitbattle.jpg"
                   alt="Robo Wars"
                   width={160}
                   height={160}
                   className="rounded-xl w-full h-auto object-contain"
-                />
+                /> */}
           </CardFlip>
           <CardFlip
             title="Robo Soccer"
@@ -43,13 +43,13 @@ const Events = () => {
             date="27 September, 2025"
             registrationClosed={false}
           >
-            <Image
+            {/* <Image
                   src="/images/events/bitbattle.jpg"
                   alt="Robo Wars"
                   width={160}
                   height={160}
                   className="rounded-xl w-full h-auto object-contain"
-                />
+                /> */}
           </CardFlip>
           <CardFlip
             title="Ampere Arena"
@@ -62,13 +62,13 @@ const Events = () => {
             date="27 September, 2025"
             registrationClosed={false}
           >
-            <Image
+            {/* <Image
                   src="/images/events/amperearena.jpg"
                   alt="Robo Wars"
                   width={160}
                   height={160}
                   className="rounded-xl h-[800px] object-fill"
-                />
+                /> */}
           </CardFlip>
           <CardFlip
             title="Paper Presentation"
@@ -81,13 +81,13 @@ const Events = () => {
             date="27 September, 2025"
             registrationClosed={false}
           >
-            <Image
+            {/* <Image
                   src="/images/events/bitbattle.jpg"
                   alt="Robo Wars"
                   width={160}
                   height={160}
                   className="rounded-xl w-full h-auto object-contain"
-                />
+                /> */}
           </CardFlip>
           <CardFlip
             title="Brain Blast"
@@ -100,13 +100,13 @@ const Events = () => {
             date="27 September, 2025"
             registrationClosed={false}
           >
-            <Image
+            {/* <Image
                   src="/images/events/brainblast.jpg"
                   alt="Robo Wars"
                   width={160}
                   height={160}
                   className="rounded-xl w-full h-auto object-contain"
-                />
+                /> */}
           </CardFlip>
           <CardFlip
             title="Cinema-X"
@@ -119,13 +119,13 @@ const Events = () => {
             date="27 September, 2025"
             registrationClosed={false}
           >
-            <Image
+            {/* <Image
                   src="/images/events/cinemax.jpg"
                   alt="Robo Wars"
                   width={160}
                   height={160}
                   className="rounded-xl w-full h-auto object-contain"
-                />
+                /> */}
           </CardFlip>
           <CardFlip
             title="Gesture Quest"
@@ -138,13 +138,13 @@ const Events = () => {
             date="27 September, 2025"
             registrationClosed={false}
           >
-            <Image
+            {/* <Image
                   src="/images/events/bitbattle.jpg"
                   alt="Robo Wars"
                   width={160}
                   height={160}
                   className="rounded-xl w-full h-auto object-contain"
-                />
+                /> */}
           </CardFlip>
           <CardFlip
             title="BitBattle"
@@ -157,12 +157,12 @@ const Events = () => {
             date="10 & 11 September, 2025"
             registrationClosed={false}
           >
-              <Image
+              {/* <Image
                 src="/images/events/bitbattle.jpg"
                 alt="BitBattle Event"
                 fill
                 className="rounded-xl object-contain"
-              />
+              /> */}
           </CardFlip>
         </div>
       </div>
