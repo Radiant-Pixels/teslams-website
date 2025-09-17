@@ -16,9 +16,9 @@ const footerData = {
     logo: "/images/teslams.png",
   },
   contact: {
-    email2: "info@isdlabsrm.in",
-    phone1: "+91 62309 31075",
-    phone2: "+91 91764 38899",
+    email2: "eeeams.in",
+    phone1: "+91 xxxxx xxxxx",
+    phone2: "+91 xxxxx xxxxx",
     address: `Aalim Muhammed Salegh College of Engineering<br/>
 Avadi - IAF Road<br/>
 Muthapudupet, Chennai - 600055<br/>
