@@ -9,6 +9,7 @@ import Earth from '@/components/ui/globe';
 import { SparklesCore } from '@/components/ui/sparkles';
 import { Label } from '@/components/ui/label';
 import { Check, Loader2 } from 'lucide-react';
+import emailjs from 'emailjs-com';
 
 export default function ContactUs1() {
   const [name, setName] = useState('');
@@ -21,27 +22,33 @@ export default function ContactUs1() {
   const isInView = useInView(formRef, { once: true, amount: 0.3 });
 
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
+  e.preventDefault();
+  setIsSubmitting(true);
 
-    try {
-      // Perform form submission logic here
-      console.log('Form submitted:', { name, email, message });
-      await new Promise((resolve) => setTimeout(resolve, 1000));
-      setName('');
-      setEmail('');
-      setMessage('');
-      setIsSubmitted(true);
-      setTimeout(() => {
-        setIsSubmitted(false);
-      }, 5000);
-    } catch (error) {
-      console.error('Error submitting form:', error);
-    } finally {
-      setIsSubmitting(false);
-    }
-  };
+  try {
+    await emailjs.send(
+      process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
+      process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
+      {
+        name,
+        email,
+        message,
+      },
+      process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
+    );
 
+    setName('');
+    setEmail('');
+    setMessage('');
+    setIsSubmitted(true);
+    setTimeout(() => setIsSubmitted(false), 5000);
+
+  } catch (error) {
+    console.error("Email send error:", error);
+  } finally {
+    setIsSubmitting(false);
+  }
+};
   return (
     <section className="bg-background relative w-full overflow-hidden py-16 md:py-24">
       <div

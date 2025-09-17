@@ -16,9 +16,9 @@ const footerData = {
     logo: "/images/teslams.png",
   },
   contact: {
-    email2: "eeeams.in",
-    phone1: "+91 xxxxx xxxxx",
-    phone2: "+91 xxxxx xxxxx",
+    email2: "amseeesymposium@gmail.com",
+    phone1: "+91 89739 33838",
+    phone2: "+91 95516 36386",
     address: `Aalim Muhammed Salegh College of Engineering<br/>
 Avadi - IAF Road<br/>
 Muthapudupet, Chennai - 600055<br/>
