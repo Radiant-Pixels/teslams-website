@@ -70,7 +70,7 @@ const Hero = () => {
           <div className="absolute bottom-4 right-4 text-white text-sm z-10">
             <p>Made with <span className="text-red-500">❤️</span> by{" "}
               <a
-                href="https://www.radiantpixels.com"
+                href="https://www.instagram.com/radiant_enterprises.official/"
                 target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:underline"

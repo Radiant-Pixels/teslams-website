@@ -149,7 +149,7 @@ export default function Footer() {
             <p>
                 Made with <span className="text-red-500">❤️</span> by{" "}
                 <a
-                    href=""
+                    href="https://www.instagram.com/radiant_enterprises.official/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-primary hover:underline"
