@@ -85,7 +85,7 @@ const elegantTeamMembers: TeamMember[] = [
     name: 'Sharrupriya P V',
     role: 'Treasurer',
     department: 'management',
-    image: '/images/students/user.png',
+    image: '/images/students/sharupriya.jpg',
   },
   {
     id: 5,
@@ -93,7 +93,7 @@ const elegantTeamMembers: TeamMember[] = [
     role: 'Treasurer',
     department: 'management',
     image:
-      '/images/students/user.png',
+      '/images/students/mohamed.jpg',
   },
   {
     id: 6,
@@ -117,7 +117,7 @@ const elegantTeamMembers: TeamMember[] = [
     role: 'Robo Race',
     department: 'roborace',
     image:
-      '/images/students/user.png',
+      '/images/students/rifan.jpg',
   },
   {
     id: 9,
@@ -125,7 +125,7 @@ const elegantTeamMembers: TeamMember[] = [
     role: 'Robo Soccer',
     department: 'robosoccer',
     image:
-      '/images/students/user.png',
+      '/images/students/kareem.jpg',
   },
   {
     id: 10,
@@ -133,7 +133,7 @@ const elegantTeamMembers: TeamMember[] = [
     role: 'Robo Soccer',
     department: 'robosoccer',
     image:
-      '/images/students/user.png',
+      '/images/students/alredhwan.jpg',
   },
   {
     id: 11,
@@ -141,7 +141,7 @@ const elegantTeamMembers: TeamMember[] = [
     role: 'Ampere Arena',
     department: 'amperearena',
     image:
-      '/images/students/user.png',
+      '/images/students/farook.jpg',
   },
   {
     id: 12,
@@ -149,7 +149,7 @@ const elegantTeamMembers: TeamMember[] = [
     role: 'Ampere Arena',
     department: 'amperearena',
     image:
-      '/images/students/user.png',
+      '/images/students/bala.jpg',
   },
   {
     id: 13,
@@ -157,7 +157,7 @@ const elegantTeamMembers: TeamMember[] = [
     role: 'Ampere Arena',
     department: 'amperearena',
     image:
-      '/images/students/user.png',
+      '/images/students/nataraj.jpg',
   },
   {
     id: 14,
@@ -173,7 +173,7 @@ const elegantTeamMembers: TeamMember[] = [
     role: 'Paper Presentation',
     department: 'paperpresentation',
     image:
-      '/images/students/user.png',
+      '/images/students/mehaboo.jpg',
   },
   {
     id: 16,
@@ -181,7 +181,7 @@ const elegantTeamMembers: TeamMember[] = [
     role: 'Paper Presentation',
     department: 'paperpresentation',
     image:
-      '/images/students/user.png',
+      '/images/students/raguram.jpg',
   },
   {
     id: 17,
@@ -189,7 +189,7 @@ const elegantTeamMembers: TeamMember[] = [
     role: 'Brain Blast & Bit Battle',
     department: 'brainblast',
     image:
-      '/images/students/user.png',
+      '/images/students/meera.jpg',
   },
   {
     id: 18,
@@ -197,7 +197,7 @@ const elegantTeamMembers: TeamMember[] = [
     role: 'Brain Blast & Bit Battle',
     department: 'brainblast',
     image:
-      '/images/students/user.png',
+      '/images/students/aishwarya.jpg',
   },
   {
     id: 19,
@@ -205,7 +205,7 @@ const elegantTeamMembers: TeamMember[] = [
     role: 'Brain Blast & Bit Battle',
     department: 'brainblast',
     image:
-      '/images/students/user.png',
+      '/images/students/monica.jpg',
   },
   {
     id: 20,
@@ -213,7 +213,7 @@ const elegantTeamMembers: TeamMember[] = [
     role: 'Cinema-X',
     department: 'cinemax',
     image:
-      '/images/students/user.png',
+      '/images/students/sikkandar.jpg',
   },
   {
     id: 21,
@@ -221,7 +221,7 @@ const elegantTeamMembers: TeamMember[] = [
     role: 'Cinema-X',
     department: 'cinemax',
     image:
-      '/images/students/user.png',
+      '/images/students/bala.jpg',
   },
   {
     id: 22,
@@ -229,7 +229,7 @@ const elegantTeamMembers: TeamMember[] = [
     role: 'Cinema-X',
     department: 'cinemax',
     image:
-      '/images/students/user.png',
+      '/images/students/sadhikali.jpg',
   },
   {
     id: 23,
@@ -237,7 +237,7 @@ const elegantTeamMembers: TeamMember[] = [
     role: 'Guest Quest',
     department: 'gesturequest',
     image:
-      '/images/students/user.png',
+      '/images/students/taufik.jpg',
   },
   {
     id: 24,
@@ -253,7 +253,7 @@ const elegantTeamMembers: TeamMember[] = [
     role: 'Guest Quest',
     department: 'gesturequest',
     image:
-      '/images/students/user.png',
+      '/images/students/syed.webp',
   }
 ];
 
