@@ -23,14 +23,15 @@ const Events = () => {
             comingSoon={false}
             date="27 September, 2025"
             registrationClosed={false}
+            pdfUrl="/ROBORACE.pdf"
           >
-                {/* <Image
-                  src="/images/events/bitbattle.jpg"
+                <Image
+                  src="/images/events/roborace.jpg"
                   alt="Robo Wars"
                   width={160}
                   height={160}
                   className="rounded-xl w-full h-auto object-contain"
-                /> */}
+                />
           </CardFlip>
           <CardFlip
             title="Robo Soccer"
@@ -42,14 +43,15 @@ const Events = () => {
             comingSoon={false}
             date="27 September, 2025"
             registrationClosed={false}
+            pdfUrl="/ROBO-SOCCER.pdf"
           >
-            {/* <Image
-                  src="/images/events/bitbattle.jpg"
+            <Image
+                  src="/images/events/robosoccer.jpg"
                   alt="Robo Wars"
                   width={160}
                   height={160}
                   className="rounded-xl w-full h-auto object-contain"
-                /> */}
+                />
           </CardFlip>
           <CardFlip
             title="Ampere Arena"
@@ -61,14 +63,15 @@ const Events = () => {
             comingSoon={false}
             date="27 September, 2025"
             registrationClosed={false}
+            pdfUrl="/AMPERE-ARENA.pdf"
           >
-            {/* <Image
+            <Image
                   src="/images/events/amperearena.jpg"
                   alt="Robo Wars"
                   width={160}
                   height={160}
-                  className="rounded-xl h-[800px] object-fill"
-                /> */}
+                  className="rounded-xl w-full h-auto object-contain"
+                />
           </CardFlip>
           <CardFlip
             title="Paper Presentation"
@@ -80,14 +83,15 @@ const Events = () => {
             comingSoon={false}
             date="27 September, 2025"
             registrationClosed={false}
+            pdfUrl="/PPT-POSTER.pdf"
           >
-            {/* <Image
-                  src="/images/events/bitbattle.jpg"
+            <Image
+                  src="/images/events/paperpresentation.jpg"
                   alt="Robo Wars"
                   width={160}
                   height={160}
                   className="rounded-xl w-full h-auto object-contain"
-                /> */}
+                />
           </CardFlip>
           <CardFlip
             title="Brain Blast"
@@ -99,14 +103,15 @@ const Events = () => {
             comingSoon={false}
             date="27 September, 2025"
             registrationClosed={false}
+            pdfUrl="/BRAIN-BLAST.pdf"
           >
-            {/* <Image
+            <Image
                   src="/images/events/brainblast.jpg"
                   alt="Robo Wars"
                   width={160}
                   height={160}
                   className="rounded-xl w-full h-auto object-contain"
-                /> */}
+                />
           </CardFlip>
           <CardFlip
             title="Cinema-X"
@@ -118,14 +123,15 @@ const Events = () => {
             comingSoon={false}
             date="27 September, 2025"
             registrationClosed={false}
+            pdfUrl="/CINEMA-X.pdf"
           >
-            {/* <Image
+            <Image
                   src="/images/events/cinemax.jpg"
                   alt="Robo Wars"
                   width={160}
                   height={160}
                   className="rounded-xl w-full h-auto object-contain"
-                /> */}
+                />
           </CardFlip>
           <CardFlip
             title="Gesture Quest"
@@ -137,14 +143,15 @@ const Events = () => {
             comingSoon={false}
             date="27 September, 2025"
             registrationClosed={false}
+            pdfUrl="/GESTURE-QUEST.pdf"
           >
-            {/* <Image
-                  src="/images/events/bitbattle.jpg"
+            <Image
+                  src="/images/events/gesturequest.jpg"
                   alt="Robo Wars"
                   width={160}
                   height={160}
                   className="rounded-xl w-full h-auto object-contain"
-                /> */}
+                />
           </CardFlip>
           <CardFlip
             title="BitBattle"
@@ -156,13 +163,15 @@ const Events = () => {
             comingSoon={false}
             date="10 & 11 September, 2025"
             registrationClosed={false}
+            pdfUrl="/BIT-BATTLE.pdf"
           >
-              {/* <Image
+              <Image
                 src="/images/events/bitbattle.jpg"
                 alt="BitBattle Event"
-                fill
-                className="rounded-xl object-contain"
-              /> */}
+                width={160}
+                height={160}
+                className="rounded-xl w-full h-auto object-contain"
+              />
           </CardFlip>
         </div>
       </div>

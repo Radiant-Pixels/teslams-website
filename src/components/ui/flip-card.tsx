@@ -223,17 +223,17 @@ export default function CardFlip({
                 </Link>
               ) : null}
 
-              {/* {pdfUrl && (
+              {pdfUrl && (
                 <button
-                  onClick={() => window.open(pdfUrl, "_blank")}
+                  onClick={() => window.open(`/brochures/${pdfUrl}`, "_blank")}
                   className="group/info flex items-center justify-between rounded-lg p-2.5 bg-gradient-to-r from-slate-50 via-slate-100 to-slate-50 dark:from-zinc-800 dark:via-zinc-800 dark:to-zinc-800 hover:from-blue-200/20 hover:via-blue-100/10 hover:to-transparent dark:hover:from-blue-500/20 dark:hover:via-blue-500/10 dark:hover:to-transparent hover:scale-[1.02] hover:border-blue-300/30 border border-transparent transition-all duration-300"
                 >
                   <span className="text-sm font-semibold text-zinc-900 dark:text-white group-hover/info:text-blue-500">
-                    Rules
+                    Brochure
                   </span>
                   <ArrowRight className="text-primary h-4 w-4 transition-all duration-300 group-hover/info:translate-x-1 group-hover/info:scale-110" />
                 </button>
-              )} */}
+              )}
             </div>
           </div>
         </div>
