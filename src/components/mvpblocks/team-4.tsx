@@ -101,7 +101,7 @@ const elegantTeamMembers: TeamMember[] = [
     role: 'Robo Race',
     department: 'roborace',
     image:
-      '/images/students/user.png',
+      '/images/students/ameen.jpg',
   },
   {
     id: 7,
@@ -165,7 +165,15 @@ const elegantTeamMembers: TeamMember[] = [
     role: 'Paper Presentation',
     department: 'paperpresentation',
     image:
-      '/images/students/user.png',
+      '/images/students/sharupriya.jpg',
+  },
+  {
+    id: 26,
+    name: 'S.Mohamad Nathim',
+    role: 'Paper Presentation',
+    department: 'paperpresentation',
+    image:
+      '/images/students/nathim.jpg',
   },
   {
     id: 15,
@@ -245,7 +253,7 @@ const elegantTeamMembers: TeamMember[] = [
     role: 'Guest Quest',
     department: 'gesturequest',
     image:
-      '/images/students/user.png',
+      '/images/students/razeeth.jpg',
   },
   {
     id: 25,
