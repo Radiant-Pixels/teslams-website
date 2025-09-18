@@ -75,7 +75,7 @@ export default function CardFlip({
       ),
     },
     venue && { label: "Venue", value: venue },
-    team_size && { label: "Team Size", value: team_size },
+    team_size && { label: "Team Size(Max)", value: team_size },
     date && { label: "Date", value: date },
   ].filter(Boolean) as { label: string; value: React.ReactNode }[];
 
