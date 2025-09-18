@@ -242,7 +242,7 @@ const elegantTeamMembers: TeamMember[] = [
   {
     id: 23,
     name: 'Taufik Ahmed T M',
-    role: 'Guest Quest',
+    role: 'Gesture Quest',
     department: 'gesturequest',
     image:
       '/images/students/taufik.jpg',
@@ -250,7 +250,7 @@ const elegantTeamMembers: TeamMember[] = [
   {
     id: 24,
     name: 'Abdur Razeeth H',
-    role: 'Guest Quest',
+    role: 'Gesture Quest',
     department: 'gesturequest',
     image:
       '/images/students/razeeth.jpg',
@@ -258,7 +258,7 @@ const elegantTeamMembers: TeamMember[] = [
   {
     id: 25,
     name: 'Syed Adnan Hussain',
-    role: 'Guest Quest',
+    role: 'Gesture Quest',
     department: 'gesturequest',
     image:
       '/images/students/syed.webp',
