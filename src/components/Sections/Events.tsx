@@ -59,7 +59,7 @@ const Events = () => {
             prize_pool="₹1500"
             entry_fee="Free"
             venue="Power Electronics Lab, EEE Department"
-            team_size="4"
+            team_size="3"
             comingSoon={false}
             date="27 September, 2025"
             registrationClosed={false}
