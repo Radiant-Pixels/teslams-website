@@ -109,7 +109,7 @@ const elegantTeamMembers: TeamMember[] = [
     role: 'Robo Race',
     department: 'roborace',
     image:
-      '/images/students/umar.jpg',
+      '/images/students/user.png',
   },
   {
     id: 8,
