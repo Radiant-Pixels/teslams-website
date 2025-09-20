@@ -12,7 +12,7 @@ const Events = () => {
         <h2 className="text-4xl sm:text-5xl font-extrabold text-gray-800 dark:text-white text-center mb-12">
           Competition Events
         </h2>
-        <p className="text-lg text-gray-600 dark:text-gray-400 mb-12"><span className="font-bold text-indigo-600">Free </span>Registration For All Events!</p>
+        <p className="text-3xl text-gray-600 dark:text-gray-400 mb-12"><span className="font-bold text-indigo-600 text-3xl">Free </span>Registration For All Events!</p>
         <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-20 justify-items-center">
           <CardFlip
             title="Robo Race"
