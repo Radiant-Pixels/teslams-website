@@ -1,4 +1,5 @@
-useimport React from "react";
+"use client"
+import React from "react";
 import CardFlip from "../ui/flip-card";
 import Image from "next/image";
 
