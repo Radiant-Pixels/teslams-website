@@ -1,4 +1,4 @@
-import React from "react";
+useimport React from "react";
 import CardFlip from "../ui/flip-card";
 import Image from "next/image";
 
@@ -162,7 +162,7 @@ const Events = () => {
             venue="Robotics Lab, EEE Department(12-2)"
             team_size="4"
             comingSoon={false}
-            date="10 & 11 September, 2025"
+            date="27 September, 2025"
             registrationClosed={false}
             pdfUrl="/BIT-BATTLE.pdf"
           >
